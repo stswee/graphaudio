@@ -7,7 +7,7 @@ from transformers import AutoTokenizer, AutoModel
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--notesPath", type=str, default='../patient_clinical_notes', help='File path to preprocessed text data')
+    parser.add_argument("--notesPath", type=str, default='../patient', help='File path to preprocessed text data')
     parser.add_argument("--languageModel", type=str, default='BioBERT', help='Language Model')
     args = parser.parse_args()
 
