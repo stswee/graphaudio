@@ -88,7 +88,7 @@ def main():
     parser = argparse.ArgumentParser(description="Build patient kNN graph from .pt text embeddings.")
     parser.add_argument("--input_folder", type=str, required=True, help="Folder with .pt embeddings")
     parser.add_argument("--output_folder", type=str, required=True, help="Where to save patient graph")
-    parser.add_argument("--k", type=int, default=5, help="Number of nearest neighbors")
+    parser.add_argument("--k", type=int, default=10, help="Number of nearest neighbors")
     parser.add_argument("--label_csv", type=str, default=None, help="CSV file with patient labels (optional)")
     args = parser.parse_args()
 
