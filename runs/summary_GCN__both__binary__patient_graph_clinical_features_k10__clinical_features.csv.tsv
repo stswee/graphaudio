@@ -1,0 +1,2 @@
+arch	modality	classification	graph_file	clinical_csv	mel_dir	acc_mean	precision_mean	recall_mean	f1_mean	auc_mean	acc_std	precision_std	recall_std	f1_std	auc_std
+GCN	both	binary	patient_graph/patient_graph_clinical_features_k10.pt	patient/clinical_features.csv	mel_generation/	0.7260162601626016	0.5271967878962015	0.7260162601626016	0.6108080042791553	0.5597165200391008	0.011021449298473733	0.015978701062241363	0.011021449298473733	0.014633817253172672	0.14302933633263137

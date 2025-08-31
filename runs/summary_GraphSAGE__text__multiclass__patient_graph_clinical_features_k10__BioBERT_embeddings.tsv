@@ -1,0 +1,2 @@
+arch	modality	classification	graph_file	text_dir	acc_mean	precision_mean	recall_mean	f1_mean	auc_mean	acc_std	precision_std	recall_std	f1_std	auc_std
+GraphSAGE	text	multiclass	patient_graph/patient_graph_clinical_features_k10.pt	embeddings/BioBERT_embeddings/	0.48966318234610917	0.3989478257691407	0.48966318234610917	0.4325675488901569	0.7362772503988729	0.08431587800532132	0.0698847823733898	0.08431587800532132	0.07668233508030822	0.0446466624517851

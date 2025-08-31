@@ -1,0 +1,2 @@
+arch	modality	classification	graph_file	text_dir	acc_mean	precision_mean	recall_mean	f1_mean	auc_mean	acc_std	precision_std	recall_std	f1_std	auc_std
+GraphSAGE	both	binary	patient_graph/patient_graph_BioBERT_k10.pt	embeddings/BioBERT_embeddings/	0.6581881533101046	0.5955378888646574	0.6581881533101046	0.6007361482678057	0.5076963180188987	0.09326263445326308	0.08861858934401597	0.09326263445326308	0.04999062589613006	0.09057831496265492

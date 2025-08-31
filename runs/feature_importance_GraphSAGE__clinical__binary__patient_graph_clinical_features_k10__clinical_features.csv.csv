@@ -1,0 +1,70 @@
+feature,importance
+voice_handicap_index_vhi_score,0.5256933
+age,0.36156148
+reflux_symptom_index_rsi_score,0.26888663
+number_of_cigarettes_smoked_per_day,0.21166407
+smoker_No,0.035098813
+occupation_status_Researcher,0.03262829
+eating_habits__chocolate_sometimes,0.027816363
+smoker_no,0.027625687
+alcohol_consumption_casual drinker,0.025624665
+eating_habits__carbonated_beverages_sometimes,0.025028335
+eating_habits__citrus_fruits_sometimes,0.02288253
+eating_habits__chocolate_almost never,0.020304648
+eating_habits__carbonated_beverages_almost never,0.019937156
+eating_habits__soft_cheese_almost never,0.01694916
+eating_habits__tomatoes_almost always,0.0143431015
+occupation_status_Employee,0.013599351
+eating_habits__coffee_almost always,0.013394288
+eating_habits__coffee_always,0.013070504
+gender_f,0.011441192
+smoker_yes,0.011148201
+amount_of_waters_litres_drink_every_day,0.010501004
+eating_habits__carbonated_beverages_never,0.009688228
+gender_m,0.009640584
+eating_habits__coffee_never,0.009222184
+alcohol_consumption_habitual drinker,0.008909159
+eating_habits__tomatoes_sometimes,0.00889167
+eating_habits__coffee_almost never,0.008771654
+alcohol_consumption_nondrinker,0.0074259904
+eating_habits__soft_cheese_sometimes,0.0064325426
+occupation_status_Student,0.0063921288
+eating_habits__coffee_sometimes,0.0057578133
+occupation_status_Technical operator,0.005750385
+eating_habits__soft_cheese_always,0.0057438146
+eating_habits__carbonated_beverages_almost always,0.005266309
+eating_habits__citrus_fruits_almost always,0.005118912
+eating_habits__citrus_fruits_never,0.004632407
+occupation_status_Housewife,0.004528788
+occupation_status_Pensioner,0.0043757795
+eating_habits__chocolate_almost always,0.0042279693
+eating_habits__soft_cheese_almost always,0.00402262
+eating_habits__chocolate_always,0.0037555518
+eating_habits__citrus_fruits_always,0.0029567746
+eating_habits__citrus_fruits_almost never,0.0029195102
+occupation_status_Singer,0.0025990603
+smoker_casual smoker,0.0022492784
+occupation_status_Doctor,0.002117318
+eating_habits__tomatoes_never,0.001876238
+occupation_status_Merchant,0.0017329978
+eating_habits__soft_cheese_never,0.001650216
+occupation_status_Secretary,0.001637338
+eating_habits__tomatoes_almost never,0.0013190439
+occupation_status_Teacher,0.0010247024
+eating_habits__tomatoes_always,0.0009978152
+eating_habits__carbonated_beverages_always,0.000953498
+occupation_status_Call center operator,0.00079970405
+occupation_status_Italian police,0.0006899933
+occupation_status_Blacksmith,0.0005425209
+occupation_status_Cook,0.0004899493
+occupation_status_Hairstylist,0.0004864896
+occupation_status_Auto electrician,0.00048249628
+occupation_status_Driver,0.00046815103
+occupation_status_Male nurse,0.00045253357
+occupation_status_Fireman,0.00034982382
+occupation_status_Unemployed,0.00022641383
+eating_habits__chocolate_never,0.00017689877
+occupation_status_Cobbler,0.00016811377
+occupation_status_Comptroller,0.0001631845
+occupation_status_Beautician,0.00013102885
+occupation_status_Librarian,9.05223e-05

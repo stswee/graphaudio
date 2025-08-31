@@ -7,19 +7,21 @@ from transformers import AutoTokenizer, AutoModel
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--notesPath", type=str, default='../patient_clinical_notes', help='File path to preprocessed text data')
+    parser.add_argument("--notesPath", type=str, default='../patient', help='File path to preprocessed text data')
     parser.add_argument("--languageModel", type=str, default='BioBERT', help='Language Model')
     args = parser.parse_args()
 
     # Select model
     if args.languageModel == 'BioBERT':
         model_name = "dmis-lab/biobert-base-cased-v1.1"
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModel.from_pretrained(model_name)
-        model.eval()
+    elif args.languageModel == 'BioClinicalBERT':
+        model_name = "emilyalsentzer/Bio_ClinicalBERT"
     else:
-        print("Please choose from one of the following models: BioBERT")
+        print("Please choose from one of the following models: BioBERT, BioClinicalBERT")
         sys.exit(1)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModel.from_pretrained(model_name)
+    model.eval()
 
     # Select device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

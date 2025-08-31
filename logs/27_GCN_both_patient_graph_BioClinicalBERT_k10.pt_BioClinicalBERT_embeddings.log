@@ -1,0 +1,33 @@
+=====================================================
+[START] 2025-08-11 03:38:02
+[CMD] CUDA_VISIBLE_DEVICES=0 python train_embeddings.py --arch GCN --modality both --graph_file patient_graph/patient_graph_BioClinicalBERT_k10.pt --text_dir embeddings/BioClinicalBERT_embeddings/ --mel_dir mel_generation/ --label_csv patient/patient_labels.csv
+Traceback (most recent call last):
+  File "/home/sswee/bioaudio_project/graphaudio_old/train_embeddings.py", line 6, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+[END] 2025-08-11 03:38:02
+[DURATION] 0s
+[EXIT_CODE] 1
+=====================================================
+=====================================================
+[START] 2025-08-11 03:44:09
+[CMD] CUDA_VISIBLE_DEVICES=0 python train_embeddings.py --arch GCN --modality both --graph_file patient_graph/patient_graph_BioClinicalBERT_k10.pt --text_dir embeddings/BioClinicalBERT_embeddings/ --mel_dir mel_generation/ --label_csv patient/patient_labels.csv
+Traceback (most recent call last):
+  File "/home/sswee/bioaudio_project/graphaudio_old/train_embeddings.py", line 6, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+[END] 2025-08-11 03:44:09
+[DURATION] 0s
+[EXIT_CODE] 1
+=====================================================
+=====================================================
+[START] 2025-08-11 03:49:22
+[CMD] CUDA_VISIBLE_DEVICES=0 python train_embeddings.py --arch GCN --modality both --graph_file patient_graph/patient_graph_BioClinicalBERT_k10.pt --text_dir embeddings/BioClinicalBERT_embeddings/ --mel_dir mel_generation/ --label_csv patient/patient_labels.csv
+Traceback (most recent call last):
+  File "/home/sswee/bioaudio_project/graphaudio_old/train_embeddings.py", line 6, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+[END] 2025-08-11 03:49:22
+[DURATION] 0s
+[EXIT_CODE] 1
+=====================================================

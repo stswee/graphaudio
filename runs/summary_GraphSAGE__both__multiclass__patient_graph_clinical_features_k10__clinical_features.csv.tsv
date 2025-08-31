@@ -1,0 +1,2 @@
+arch	modality	classification	graph_file	clinical_csv	mel_dir	acc_mean	precision_mean	recall_mean	f1_mean	auc_mean	acc_std	precision_std	recall_std	f1_std	auc_std
+GraphSAGE	both	multiclass	patient_graph/patient_graph_clinical_features_k10.pt	patient/clinical_features.csv	mel_generation/	0.31254355400696865	0.30955840892882514	0.31254355400696865	0.27453448215784704	0.5351313326225986	0.09198356969368895	0.1071306677165462	0.09198356969368895	0.06819479830981846	0.04694941721344721

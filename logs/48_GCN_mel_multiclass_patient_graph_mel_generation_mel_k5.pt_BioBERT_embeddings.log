@@ -1,0 +1,11 @@
+=====================================================
+[START] 2025-08-11 03:40:42
+[CMD] CUDA_VISIBLE_DEVICES=2 python train_embeddings.py --arch GCN --modality mel --graph_file patient_graph/patient_graph_mel_generation_mel_k5.pt --text_dir embeddings/BioBERT_embeddings/ --mel_dir mel_generation/ --label_csv patient/patient_labels.csv --classification multiclass
+Traceback (most recent call last):
+  File "/home/sswee/bioaudio_project/graphaudio_old/train_embeddings.py", line 6, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+[END] 2025-08-11 03:40:42
+[DURATION] 0s
+[EXIT_CODE] 1
+=====================================================
